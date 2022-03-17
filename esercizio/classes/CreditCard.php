@@ -42,7 +42,6 @@ class CreditCard {
         }
     }
 
-
     public function getNumber() {
         return $this->number;
     }
@@ -61,7 +60,6 @@ class CreditCard {
         if ($expires < $now)  {
             throw new Exception('La carta di credito è scaduta!!!');
         }
-
 
     }
 
